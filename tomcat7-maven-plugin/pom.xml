@@ -33,7 +33,7 @@
 
   <properties>
     <managerWebAppPath>${basedir}/target/</managerWebAppPath>
-    <warTestPath>${basedir}/src/test/simple-war-project-1.0-SNAPSHOT.war</warTestPath>
+    <warTestPath>${basedir}/src/test/simple-war-project-${project.version}.war</warTestPath>
     <keystoreTestPath>${basedir}/src/test/keystore</keystoreTestPath>
   </properties>
 
